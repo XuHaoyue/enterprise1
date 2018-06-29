@@ -1,0 +1,153 @@
+main{
+    width: 100%;
+    height: auto;
+}
+.dg{
+    width: 100%;
+    height: 600px;
+    background: url("../img/2018012516283916940bg.jpg") no-repeat center;
+    background-size: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: -10;
+}
+.logop{
+    width: 100%;
+    height: 600px;
+    margin-top: 600px;
+    background: #fff;
+}
+.logop img{
+    display: block;
+    width: 440px;
+    margin: 50px auto;
+}
+.logop p{
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+}
+.logop .tit{
+    width: 400px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.logop .tit:after{
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: #999999;
+}
+.logop .tit span{
+    font-size: 30px;
+    padding: 10px;
+}
+.shangpin{
+    width: 100%;
+    height:1000px;
+    background: #fff;
+    margin-top: 200px;
+
+}
+.shangpinli{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+}
+.shangpinli>h3{
+    font-size: 26px;
+    padding:20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.shangpinli>h4{
+    font-size: 24px;
+    padding:20px;
+    box-sizing: border-box;
+    color: #999;
+    font-weight: 200;
+}
+.shanglist{
+    width: 100%;
+    height: 700px;
+    border: 1px solid #333;
+    position: relative;
+}
+.syslist{
+    width: 20%;
+    height: 50px;
+    float: left;
+    background: lightgoldenrodyellow;
+    line-height: 50px;
+    text-align: center;
+}
+.shangpiboxup{
+    width: 100%;
+    height: 150px;
+    background: #fff;
+
+}
+.shangpiboxup a{
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-left: 20px;
+    color: #969696;
+    float: left;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.shangpiboxdoen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:100px
+}
+.shangpiboxdoen .left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding:0 40px;
+    box-sizing: border-box;
+}
+.shangpiboxdoen .left img{
+    display: block;
+    width: 100%;
+}
+.shangpiboxdoen .right{
+    float: left;
+}
+.shangpiboxdoen .right h3{
+    font-size: 20px;
+    padding:20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.shangpiboxdoen .right p{
+    font-size: 16px;
+    padding:20px;
+    box-sizing: border-box;
+    color: #999;
+    font-weight: 200;
+}
+.shangpiboxdoen .right li{
+    list-style: disc;
+    font-size: 16px;
+    padding-left:20px;
+    box-sizing: border-box;
+    color: #333;
+    font-weight: 200;
+
+}
+.hot{
+    color: orange;
+}
